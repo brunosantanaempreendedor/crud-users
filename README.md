@@ -8,12 +8,12 @@ Obrigado por acessar este projeto Laravel! Siga os comandos abaixo para configur
 
 ### 1. Clone o repositório
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone git@github.com:brunosantanaempreendedor/crud-users.git
 ```
 
 ### 2. Acesse o diretório do projeto
 ```bash
-cd <NOME_DO_DIRETORIO>
+cd crud-users
 ```
 
 ### 3. Instale as dependências
@@ -42,6 +42,11 @@ Certifique-se de que o banco de dados esteja criado antes do próximo passo.
 ### 7. Execute as migrações
 ```bash
 php artisan migrate
+```
+
+### 8. Execute as seeder para criar os usuarios sendo a senha 123456789 e o email test@localhost.com.br
+```bash
+php artisan db:seed
 ```
 
 ### 8. Inicie o servidor local

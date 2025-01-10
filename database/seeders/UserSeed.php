@@ -22,7 +22,7 @@ class UserSeed extends Seeder
         DB::table('users')->insert([
             'uuid' => Uuid::uuid4(),
             'name' => $faker->name,
-            'email' => $faker->unique()->safeEmail,
+            'email' => 'test@localhost.com.br',
             'password' => Hash::make('123456789'),
             'created_at' => now(),
         ]);
